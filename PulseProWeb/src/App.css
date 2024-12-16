@@ -1,0 +1,166 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+ 
+    --light-color1:#f4f4f2;
+    --light-color2: #e8e8e8;
+    --dark-color1: #bbbbbe;
+    --dark-color2: #bbbfca;
+    --dark-color3: #495464;
+    --white-color: #ffffff;
+
+}
+
+
+.mainBox{
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.box{
+    margin: 1em;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5{
+    color: var(--dark-color3);
+    margin: 0px !important;
+}
+
+p, a{
+    color: #495464;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+ul{
+    padding: 0;
+}
+
+.list-style-none{
+    list-style: none;
+}
+
+.display-flex{
+    display: flex;
+}
+
+/* ---------- Start Main Navbar ---------- */
+
+.navbar-logo{
+    padding-bottom: 10px !important;
+    text-align: center;
+}
+
+.mainNav{
+    -webkit-box-shadow: 0 4px 6px -6px #2222225e;
+    -moz-box-shadow: 0 4px 6px -6px #2222225e;
+    box-shadow: 0 4px 6px -6px #2222225e;
+}
+
+.navbar-main{
+    background-color: var(--light-color1);
+    box-shadow: 0px -8px 20px 4px rgb(0 0 0 / 5%);
+    border-top: none;
+}
+
+.navbar ul{
+    justify-content: space-between;
+    padding-top: 0.5em;
+}
+
+.navbar ul li{
+    transition: 0.5s;
+    padding: 1em 3em;
+    border-radius: 15px;
+    cursor: pointer;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.navbar ul li:hover{
+    background-color: var(--dark-color2);
+}
+
+.navbar ul li:hover a{
+    color: var(--light-color1) !important;
+}
+
+/* ---------- End Main Navbar ---------- */
+
+
+
+
+
+/* ---------- Start Navbar Examples ---------- */
+.firstNav,
+.secondNav,
+.thirdNav{
+    border: 1px solid var(--dark-color2);
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.firstNav nav,
+.secondNav nav,
+.thirdNav nav{
+    align-items: center;
+    width: 100%;
+}
+
+
+.firstNav nav ul li,
+.secondNav nav ul li,
+.thirdNav nav ul li,
+.firstNav nav h1{
+    padding-right: 1em;
+}
+
+.firstnav-buttons{
+    justify-content: end;
+    width: 70%;
+
+}
+
+.firstnav-buttons button,
+.second-buttons button{
+    color: var(--dark-color3);
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+.firstnav-buttons .login,
+.second-buttons .login{
+    background-color: transparent;
+    border: none;
+}
+
+.firstnav-buttons .signup,
+.second-buttons .signup{
+    background-color: var(--dark-color2);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    color: var(--white-color);
+}
+
+.secondNav nav,
+.thirdNav nav{
+    justify-content: space-between;
+}
+
+/* ---------- End Navbar Examples ---------- */
+
