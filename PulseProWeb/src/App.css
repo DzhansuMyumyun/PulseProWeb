@@ -152,6 +152,10 @@ ul{
     margin: 2em;
 }
 
+.listContainer h2{
+    text-align: center;
+    padding-bottom: 1em;
+}
 
 /* ---------- End List ---------- */
 
